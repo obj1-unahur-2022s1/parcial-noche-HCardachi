@@ -1,3 +1,6 @@
+/* 
+ * Quizás en esta estaSatisfecho() de comenzal convenia delegar en un método auxiliar el cálculo del peso de lo que comió
+*/
 import comidas.*
 
 //COMENSAL

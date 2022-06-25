@@ -6,7 +6,7 @@ describe "Test de Comensales" {
 	const cPopu = new HambrePopular(peso = 85000)
 	const cFino = new PaladarFino(peso = 62000)
 	
-	const provo1 = new Provoleta(pesoP = 190)
+	const provo1 = new Provoleta(peso = 190)
 	const asado = new CortesC (nombre = "Asado", calidad = 10, pesoCorte = 250)
 	const entrania = new CortesC (nombre = "Entraña", calidad = 7, pesoCorte = 200)
 	const chorizo = new CortesC (nombre = "Chorizo", calidad = 8, pesoCorte = 50)
