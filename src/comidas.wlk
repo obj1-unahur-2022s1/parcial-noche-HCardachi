@@ -1,17 +1,25 @@
+/* 
+La mejor opción para manejar el peso en las comidas era la siguiente
+. método abstracto peso en Plato
+. const property peso en Provoleta
+. en esAbundante() usar self.peso()
+*/
+
+/* valoración() debía ser un método abstracto, (no era un atributo) */
+
 class Plato {
-	var property peso = 0
-	var property valoracion = 0
-	
+	method peso()
+	method valoracion()
 	method aptoVegetariano()
-	method esAbundante() = peso > 250
+	method esAbundante() = self.peso() > 250
 }
 
 //PROVOLETA
 class Provoleta inherits Plato {
-	const pesoP
+	var property peso
 	const especias = true
 	
-	override method peso() = pesoP
+	
 		
 	override method aptoVegetariano() = !especias
 	

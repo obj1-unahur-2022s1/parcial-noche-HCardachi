@@ -1,9 +1,10 @@
+//Correcciones en las hamburguesas
 import comidas.*
 
 describe "Test de Comidas" {
 	const hamburguesaC1 = new HamburguesaC (pan = panCasero)
 	const hamburguesaV1 = new HamburguesaV (pan = panMMadre, hechaDe = "Garbanzos")
-	const provo1 = new Provoleta(pesoP = 190)
+	const provo1 = new Provoleta(peso = 190)
 	const asado = new CortesC (nombre = "Asado",     calidad = 10, pesoCorte = 250)
 	const entra = new CortesC (nombre = "Entraña",   calidad = 7,  pesoCorte = 200)
 	const chorizo = new CortesC (nombre = "Chorizo", calidad = 8,  pesoCorte = 50)
@@ -11,7 +12,7 @@ describe "Test de Comidas" {
 	
 	
 	method initialize() {
-		hamburguesaV1.peso(320)
+		
 	}
 	
 	test "Valoración de la Hambruguesa de Carne con pan casero" {
